@@ -1,0 +1,62 @@
+body, #container {
+	margin:0;
+	padding:0;
+	font-family:Helvetica, Verdana;
+	background-color:#666666;
+}
+
+#container > #header {
+	margin:0;
+	padding:10px;
+	background-color:#333333;
+	color:#dddddd;
+	border-bottom:2px solid #9999ff;
+	padding-left:5%;
+}
+
+#container > #content {
+	margin:0;
+	padding:10px;
+	background-color:#ffffff;
+	color:#222222;
+	height:420px;
+}
+
+#container > #content > #circusForm {
+	width:250px;
+	float:left;
+	text-align:right;
+	margin-top:50px;
+	margin-right:50px;
+}
+
+#container > #content > #circusForm  > div {
+	margin:5px;
+}
+
+#container > #content > #circusForm  label {
+	font-size:90%;
+	font-weight:bold;
+	padding-right:10px;
+}
+
+#container > #content > #circusForm  input {
+	width:70px;
+}
+
+#container > #content > #circusForm  .page {
+	display:inline;
+}
+
+#container > #content > #circusForm  .page input {
+	width:30px;
+}
+
+#container > #footer {
+	margin:0;
+	padding:10px;
+	color:#dddddd;
+	background-color:#333333;
+	border-top:1px solid #9999ff;
+	padding-left:5%;
+}
